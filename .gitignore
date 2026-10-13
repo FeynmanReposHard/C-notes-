@@ -1,0 +1,30 @@
+*.exe
+*.o
+__pycache__/
+.env
+.env.*
+!.env.example
+
+# Credentials and private keys
+*.pem
+*.key
+*.token
+credentials.*
+secrets.*
+
+# Generated build and cache files
+*.obj
+*.out
+*.dll
+*.so
+*.dylib
+build/
+dist/
+.venv/
+venv/
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

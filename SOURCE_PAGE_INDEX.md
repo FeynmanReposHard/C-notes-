@@ -1,0 +1,536 @@
+# Source-by-source page inventory
+
+This index preserves page headings and extracted text cues across **all 511 pages**, including conceptual diagrams/exercises that cannot be reliably transcribed into code automatically. Handwritten slide text may be inaccurate; consult original PDF page.
+
+## C in 10 Hours (1) 2.pdf(1).pdf — 296 pages
+
+- Page 1: C Programming in One Video
+- Page 2: Chapter 1 : Basics 1) Basic Printing, \n wali cheez. 2) Variables, printing variables, int, float, and +,-,*,/ of integers. 3) Variables naming rules. 4) Comments 5) Taking In
+- Page 3: Basic program in C #include<stdio.h> int main(){ printf(“hello world”); return 0; } Cow iswhite VS Code I Low has y legs Cow gives milk cow is an animal
+- Page 4: How to move in next line? Example : printf(“Hello PW”); printf(“Hello CW”); Output will be : Hello PWHello CW
+- Page 5: Use of escape sequence ‘\n’ Example : printf(“Hello PW”); printf(“\n”); printf(“Hello CW”); Output will be : Hello PW Hello CW.
+- Page 6: /Homework]
+- Page 7: Tode for int ~ ↓ format specifier
+- Page 8: Variables and their Declaration Let us focus on int data type as of now. 1) Variables as containers : & Output I ⑤ Y I 25 -
+- Page 9: Printing Variables in C & Updation of Variables int x = 5; printf(“%d”,x); x = 7; printf(“%d”,x); x = x + 6; printf(“%d”,x); x = x - 20; printf(“%d”,x); ~ Output v 10 · S - S 
+- Page 10: Arithmetic operations on int data type int x = 5; int y = 2; printf(“%d”,x+y); printf(“%d”,x-y); printf(“%d”,x*y); printf(“%d”,x/y); // issue 5/2 =2 7 3 10
+- Page 11: Increment - Decrement operators int x = 5; x/+; printf(“%d”,x); x/-; printf(“%d”,x); /+x; printf(“%d”,x); –-x; printf(“%d”,x); - T - Output - -X ~ · E · S * 6 6 ~ - - ~ Output
+- Page 12: float data type float x = 3.1; int y =S;
+- Page 13: Arithmetic operations on float data type float x = 5; float y = 2; printf(“%f”,x+y); printf(“%f”,x-y); printf(“%f”,x*y); printf(“%f”,x/y);
+- Page 14: Example : Calculating Area of a Circle float radius = 5; float pi = 3.1415; float area = pi*radius*radius; printf(“%f”,area); ⑳tr
+- Page 15: Example : Calculating Simple Interest float p,r,t,si; p = 100; r = 10; t = 2; si = (p*r*t)/100; printf(“%f”,si);
+- Page 16: Homework : Calculate Volume of a Sphere
+- Page 17: Variable Naming rules 1) Variables can start from an alphabet or underscore _ . 2) Special characters except _ are not allowed. 3) Some particular keywords are not allowed. 4)
+- Page 18: Variable Naming rules - Examples Q. Which of the following are invalid variable names and why? BASICSALARY _basic basic-hra #MEAN group. 422 population in 2006 over time mindo
+- Page 19: Taking input // Let us take a simple example int x; printf(”Enter a number\n”); scanf(“%d”,&x); // user will give ‘x’ a value. int y = x*x; printf(”square of number that you g
+- Page 20: Taking input // SUM of 2 given numbers int x; printf(”Enter first number\n”); scanf(“%d”,&x); // user will give ‘x’ a value. int y; printf(”Enter second number\n”); scanf(“%d”
+- Page 21: Modulus Operator * +, - , S I 00 - 5%2 =1 ↓ arithmetic 49%4 =1 operators 100%6 =Y a%b =remainder when is divided by 'b' 1 d divisor dividend
+- Page 22: Modulus Operator Miscellaneous:1) a%b =a (if a < b] mee -> 2%7 =2 2) a%(- b) =a %b -> 7%(4) =7%7 =3 3) I- a) ob - - [a%b] -> (71%4 = - (7%4] = - 3 4) (- a)%(b) =- (a%b)
+- Page 23: Typecasting Ques : Take integer ‘x’ as input and print half of the number. Ques : Take float ‘x’ as input and check if it is an integer or not. >Very Important - * -'If Else' 
+- Page 24: Hierarchy of operators int i = 2 * 3 / 4 ; printf(“%d”,i); Precedence AS Brackets) D, m) Ass maths Programming - - 273/4 =240.75 =1.5 243/4 =24 0 =0 2* 3/4 =6/4 =1.5 I I 24 3/
+- Page 25: char data type char ch = ‘a’; float, char ↓int. f %%a %d A various characters?''9' $'4' · ab I ! 8 "
+- Page 26: ASCII values char ch = ‘a’; L ↳ int X =5; Lit ch Each character has an ASCII value (which is an integer)
+- Page 27: ASCII values char ch = ‘a’; yaad Jenni chahiye a =97 'A=65 10 =48 I I "B =98 'B =66 ' =49 Sh =99 C =67 I v 1 ↳ ↑ 1 I I I I - 1 & T ↳ 13 =90 19 = 57 1 =122 2 2
+- Page 28: MCQ Time !
+- Page 29: MCQ 1 Which of the following is NOT a character constant (1) ‘Thank You’ (2) ‘Enter values of P, N, R’ (3) ‘23.56E-03’ (4) All the above -
+- Page 30: MCQ 2 In b = 6.6 / a + 2 * n ; which operation will be performed first? (1) 6.6 / a (2) a + 2 (3) 2 * n (4) Depends upon compiler - v
+- Page 31: MCQ 3 Which of the following statements is false (1) Each new C instruction has to be written on a separate line (2) Usually all C statements are entered in small case letters
+- Page 32: MCQ 4 (Homework) If a is an integer variable, a = 5 / 2 ; will return a value (1) 2.5 (2) 3 (3) 2 (4) 0 inta =5/2: printf/"%d", a); ~
+- Page 33: MCQ 5 (Homework) The expression, a = 7 / 22 * ( 3.14 + 2 ) * 3 / 5 ; evaluates to (1) 8.28 (2) 6.28 (3) 3.14 (4) 0 floatas
+- Page 34: MCQ 6 The expression x = 4 + 2 % - 8 evaluates to (1) -6 (2) 6 (3) 4 (4) None of the above a%-b) =aYob a%b =a(a<b] x =y +2% - 8 ~ -> 4t 2%8 -> n +2 = 6
+- Page 35: MCQ 7 What will be the value of d if d is a float after the operation d = 2 / 7? (1) 0 (2) 0.2857 (3) Cannot be determined (4) None of the above floatd =217; - d =2.0/7;
+- Page 36: ↑2 VIS 0 float/float - float dr int/int+int ⑳r float/inte float X a b int/float float ⑳ X
+- Page 37: Chapter 2 : Conditionals 1) if, if - else 2) nested 3) Else if ladder 4) Ternary 5) switch
+- Page 38: Control Statements
+- Page 39: IF - ELSE intx; scarf("%d", (n); ↓ if statement
+- Page 40: ~ - Enter a number: 8 - - - ~ ~ ⑤ I Positive Number
+- Page 41: v v Enter a number: - y - - Negative Number W ~ ↳ I X
+- Page 42: Ques : Take positive integer input and tell if it is even or odd ⑩ intx; Scant (""od",92); if (even) printf/"even No"); if (odd) printf/"Odd Number"); if (Yor2 ==1) even - if 
+- Page 43: Rational Operators e -comparisons >, , =, =, = I not -> equalityoperator != =-> assignment operator x =x +10; LHS =RHS 3 LHS = =RHS & L true, falle
+- Page 44: HW : Take positive integer input and tell if it is divisible by 5 or not.
+- Page 45: Ques : Take integer input and print the absolute value of that integer mod X =Y 1x1 =141 =4 x = - 1 1x1 =1 -71 =7 if (x = =0 e (x) =x it(x > =0) if (X < 0)
+- Page 46: Typecasting Ques : Take integer ‘x’ as input and print half of the number. Ques : Take float ‘x’ as input and check if it is an integer or not. >Very Important - ~ -> If Else'
+- Page 47: - ~ Enter a real number: 3.4 ~ - Number is not integer ~ ~ Tme v f False X a I - ~ ↳- ⑳
+- Page 48: Ques : If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss or no profit 
+- Page 49: Else statement ina ↳ . used alongside/after ifstatement · if your 'if'statementfails, then else will zn. ↓ 2 times check
+- Page 50: HW : Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.
+- Page 51: Multiple Conditions Using && and || and 02
+- Page 52: Ques : Take positive integer input and tell if it is a three digit number or not. if (x > 9900 x <1000) print->
+- Page 53: Ques : Take positive integer input and tell if it is divisible by 5 and 3. d L it(X%S ==0) if(x%03 ==0) b 6 if (x%3 = =0 && n%3 = =0) - 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33
+- Page 54: Ques : Take positive integer input and tell if it is divisible by 5 or 3.
+- Page 55: Ques : Take 3 numbers input and tell if they can be the sides of a triangle. a, b, c s sides of D a +b > c b +c > a c +a > b if (a+b>&& btc a && cacb)
+- Page 56: Difference blw && and 11 operators e nee if (condition 2 && condition 2) if it is false, then true tie -> true comfiler doesn'teven true false - falle - check for the second c
+- Page 57: Ques : Take 3 positive integers input and print the greatest of them. A I distinct) a, b, c if(acbo& ax) - if (bx &&b xa) - I only works for distinctno. if(caxb) -
+- Page 58: Ques : Take 3 positive integers input and print the least of them. HW => (Distinct)
+- Page 59: Ques : Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not. 4 stu, 1900, 1700 366 days ~ x X ~ ~ 2000, 1650 2000, 2023,
+- Page 60: HW : Take positive integer input and tell if it is divisible by 5 or 3 but not divisible by 15.
+- Page 61: Nested If - Else
+- Page 62: Ques : Take positive integer input and tell if it is divisible by 5 and 3. x =3 - Not divisible by 5&3 x =3 - Not divisible by 5 and 3 x =15 - Divisible by 5&3
+- Page 63: Ques : Take positive integer input and tell if it is divisible by 5 or 3 but not divisible by 15. x =9: Condition valid x =20: condition valid x =45: Condition Invalid x =1: C
+- Page 64: Ques : Take 3 positive integers input and print the greatest of them. A withoutusing (multiple conditions) a, b, c if (a < b) [ if (ax) - a is greatest else
+- Page 65: HW : If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three. (using nested if else)
+- Page 66: Else If
+- Page 67: Ques : Take input percentage of a student and print the Grade according to marks: 1) 81-100 Very Good 2) 61-80 Good 3) 41-60 Average 4) <=40 Fail method-1 (Multile conditions)
+- Page 68: Ques : Take input percentage of a student and print the Grade according to marks: 1) 81-100 Very Good 2) 61-80 Good 3) 41-60 Average 4) <=40 Fail Method-2 Else I5 x =90 Very G
+- Page 69: HW : Given a point (x, y), write a program to find out if it lies in the 1st Quadrant, 2nd Quadrant, 3rd Quadrant, 4th Quadrant, on the x-axis, y-axis or at the origin, viz. (
+- Page 70: HW : Given the coordinates (a, b) of a center of a circle and its radius, write a program which will determine whether a user entered point lies inside the circle, on the circ
+- Page 71: Ques : Take 3 positive integers input and print the greatest of them. A
+- Page 72: Ternary Operator expression 1 ? expression 2 : expression 3 Cool Way to write it-else code e ; condition true false
+- Page 73: C WAP to check if no is even or odd. using ternary. condition?true:false HW. WAD tocheck if inputyear is leap year.
+- Page 74: Switch Statement - Replacementfor it-less'
+- Page 75: switch ( integer expression ) { case constant 1 : do this ; case constant 2 : do this ; case constant 3 : do this ; default : do this ; } Syntax = e -char operator ↑ a op b 5*
+- Page 76: HW:WADto inputday no. 1, 2, 3, 4, 5, 6, 7 · d I man Sun Tul
+- Page 77: Ques : Write a program to create a calculator that performs basic arithmetic operations (add, subtract, multiply and divide) using switch case and functions. The calculator sh
+- Page 78: Chapter.3:'Loops 1) For Look 2) While Loop 3) Do-while loop
+- Page 79: For Loop for(int i = 1; i<10; i++){ // code } increment condition i=i +1 initialisation ↑ Hello World a 10 baar
+- Page 80: Ques : Print hello world ‘n’ times. Take ‘n’ as input from user Output - Hello v U Y / - I · Enter n: 3 ~ 3 & Hello Steps: ·Hello 1) Check false, finish 4 - 3 2) Work 2W X 3) 
+- Page 81: How for loop works : the various parameters. initialization;condition; increment d - Ex baar bar baar
+- Page 82: Ques : Print numbers from 1 to 100 1 to 10 10 times hello world G look a variables i Printthe value of '' & then obviously 'is going to increment
+- Page 83: Ques : Print all the even numbers from 1 to 100 - Output - 2 Y 68 10 .... 98100 #At:If Else this look isrunning 100 times
+- Page 84: Ques : Print all the even numbers from 1 to 100 Md-2:By changing the increment i =1,2,3,4,5,8... -> it+/i= i+1 ↓ i =10...98,100 So baar look calga ->
+- Page 85: HW : Print all the odd numbers from 1 to 100 d M-T M-2 - I d ↳increment change if else
+- Page 86: Ques : Print the table of 19. 19 Oteut:19,38,57,76,95,.. 171, 190 38 57 M-1:divisible by 19 [1-190] 76 e 4,90 times 95 114 Mice 10 times only I 133 152 171 209 190 i =13837-0a
+- Page 87: HW : Print the table of ‘n’. Here ‘n’ is a integer which user will input.
+- Page 88: Ques : Display this AP - 1,3,5,7,9.. upto ‘n’ terms. 3 technically I was * i c =22 - 1 for(inti= 1;Eii =i+2)[ printing the value I printf("%d\n"; il; of '' 3 an =a, +(n-1)d an
+- Page 89: Ques : Display this AP - 1,3,5,7,9.. upto ‘n’ terms. Withoutthe nth term formula - I will only use'as the number of rounds for the look
+- Page 90: HW : Display this AP - 4,7,10,13,16.. upto ‘n’ terms.
+- Page 91: Ques : Display this GP - 1,2,4,8,16,32,.. upto ‘n’ terms. cook code -> I will run the times
+- Page 92: HW : Display this GP - 3,12,48,.. upto ‘n’ terms.
+- Page 93: Break; d look to finish Kara before reaching the condition
+- Page 94: C.Find the highest factor of a given numberin. [except'n'7 -> Fox:n =24 -> 1, 2, 3, 4, 6, 8, 12, 24 basic approach -> int 46; for(i=1;i = =n-1;i ++1 I if (n%i ==0) hf =1; 3
+- Page 95: - 15 - S u ↳ - if - - ja i =A665 1, 3, 5, 15
+- Page 96: Ques : WAP to check if a number is prime or not. d Any number inis prime if write a it has no factors except10 h program itsent if (n%i ==0( a WAD to check if no is composite 
+- Page 97: Continue; ↓ skip a round in the loop'
+- Page 98: Ques : WAP to print odd numbers from 1 to 100. even - Method - 3 i Using continue -
+- Page 99: While Loop int i = 0; while(i<10){ // code i++; } -condition for lint i =0;i < 10;i++)[ E I/code 3 -> increment
+- Page 100: o Print nose from 1 to10 using while look.
+- Page 101: Do- While Loop do { //code } while ( another == 'y' ) ; -> runs atleast once
+- Page 102: Predict the output main( ) { int j ; while ( j <= 10 ) { printf ( "\n%d", j ) ; j = j + 1 ; } } Output j ~ W I =>j + +; W I - Garbage Values
+- Page 103: Predict the output main( ) { int i = 1 ; while ( i <= 10 ) ; { printf ( "\n%d", i ) ; i++ ; } } - -a lot o -
+- Page 104: Predict the output main( ) { int x = 1 ; while ( x == 1 ) { x = x - 1 ; printf ( "\n%d", x ) ; } } Output ~ W I · ~
+- Page 105: Predict the output main( ) { int x = 1 ; while ( x == 1 ) x = x - 1 ; printf ( "\n%d", x ) ; } - I output w I
+- Page 106: Predict the output main( ) { int x = 4, y = 3, z ; z = x-- -y ; printf ( "\n%d %d %d", x, y, z ) ; } Output I ⑧ v ~ Y 3 X y 2 I · 33 1 X -- =>post decrement 4 =x - 1
+- Page 107: Predict the output main( ) { while ( 'a' < 'b' ) printf ( "\nmalyalam is a palindrome" ) ; } 9798 L malayalam S I Infinite Loop =
+- Page 108: Predict the output main( ) { int i ; while ( i = 10 ) { printf ( "\n%d", i ) ; i = i + 1 ; } } - : v N I ②
+- Page 109: HW : Predict the output main( ) { int i = 10 ; while ( i = 20 ) printf ( "\nA computer buff!" ) ; }
+- Page 110: Predict the output main( ) { int x = 4, y = 0, z ; while ( x >= 0 ) { x-- ; y++ ; if ( x == y ) continue ; else printf ( “\n%d %d”, x, y ) ; } } S d Y ·Output X B ~ 2 · 3 I W 
+- Page 111: HW : Predict the output main( ) { int x = 4, y = 0, z ; while ( x >= 0 ) { if ( x == y ) break ; else printf ( “\n%d %d”, x, y ) ; x-- ; y++ ; } }
+- Page 112: Questions using Operators + - * / %
+- Page 113: Ques : WAP to count digits of a given number. n =12458 Algorithm: ne ↓ n count 5 digit no. 12458 ⑧ 1245 I #Fit:continuously divide 124 2 n by 10 untill it 12 3 reaches O. I U 
+- Page 114: Ques : WAP to print sum of digits of a given number. n =12345 Hint 1:Sum =1+2+3 + 4+ 5 =5 +4 +3 +2 +1 Here #Hint 2:If we wanthe lastdigit of a number 'n'e 2% 10 - Algo n ed su
+- Page 115: HW : WAP to print sum of all the even digits of a given number. 1 n =2413/2536 ↓ Sum =2 +4 +2 +6 Hw.2 WAP to printthe productof all digits of a given - number
+- Page 116: Ques : WAP to print reverse of a given number. A n =1234 #-1: last digit (n =4 32 1 in =n/10 - r = ~*10; Algorithm : n 2 Id E 1234 O Y v =r +ld; 123 Y 3 12 43 2 I 432 I ⑧ 4321
+- Page 117: HW : WAP to print the sum of given number and its reverse.
+- Page 118: Ques : Print the factorial of a given number ‘n’. - 5) or 3 =5x4x3x2x1 - 6! =6xSX4x3x2X1 A 2? =2x1 =>n! =nxn-1xn-2xn-3....3x2x1 n!=productof 1,2,3, . . . . . product:1;
+- Page 119: HW : Print the factorials of first ‘n’ numbers n = S ↓ I 2 6 24 120
+- Page 120: HW : Write a program to print all the ASCII values and their equivalent characters of 26 alphabets using a while loop. Kafrital) Output:(Typecasting) e 65 A 66B 67 C 68D : 902
+- Page 121: Auth to access the sources Dev Too -> break the authentication - en, locker storage L can open 2 mins toupload anywhere list 3.11.3 data frames to read excel file offseteek ba
+- Page 122: Pattern Printing Questions **** **** **** -y -2
+- Page 123: Ques : Print the given pattern ***** ***** ***** Solid Rectangle m =no. of rows/lines n =no. of columns, no. of elements in each line m =2, n =3 2 3 Output 0 X X X · **& i =xR
+- Page 124: Ques : Print the given pattern **** **** **** **** Solid Square L Inpute'sas the side of square
+- Page 125: Ques : Print the given pattern 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 Number Square n =Y n =3 for linti=1; ic=n; i+ +K I 2 3 I printf("%d", i); 1 2 3 3 I 23 1 2 3 4 n =4 forlinti=1;i
+- Page 126: Homework: me Find out why n =4 11 I 22 2 2 "Y
+- Page 127: Ques : Print the given pattern A B C D A B C D A B C D A B C D Alphabet Square 26 n =4 n =2 Hint:ASCII values - AB 1 2 3 656667A BC AB I I 23 I 656667 - A BC 1 2 3 656667 AB C
+- Page 128: Homework - n =3 A A A B B B c c c
+- Page 129: Ques : Print the given pattern *** *** **** Star Triangle m =4 n =3 n =S X I 2 345; X & I * ** * 2>*** 4 x x x x & S a x x x x differenceb/w i square &triangle
+- Page 130: Ques : Print the given pattern 1 1 2 1 2 3 1 2 3 4 Number Triangle
+- Page 131: HW : Print the given pattern A A B A B C A B C D Alphabet Triangle E nc =26
+- Page 132: Homework: (Classwork) - 2) FOVEX =n =Y 2) n =4 A I B B 22 ccC 333 DDDD 44 Y Y
+- Page 133: *HW : Print the given pattern 1 A B 1 2 3 A B C D 1 2 3 4 5 Alphabet Triangle n =3 #Ant:Use (ib-elses &Number mix
+- Page 134: Ques : Print the given pattern **** *** ** * Star Triangle Ulta n =4 I 2 3 Y - j (j =1;jc =n+1 - i;j +t) I X & X * i =1, j =1to 4 2 x x x i =2,j =1 to 3 3 a x i =3,j =1602 Y X
+- Page 135: HW : Print the given pattern 1 2 3 4 1 2 3 1 2 1 Number Triangle Ulta 111 I 222 & 3 3 Y
+- Page 136: HW : Print the given pattern Alphabet Triangle Ulta A B C D A B C A B A A A A A B B B & C C D
+- Page 137: S: Odd Number Square n =4 n =3 13 57 135 13 S 7 135 135 7 135 I 35 7
+- Page 138: Ques : Print the given pattern 1 1 3 1 3 5 1 3 5 7 Odd Number Triangle 2 - S H.W. I 35 7 & I 3 S I 3 I
+- Page 139: Homework : n =3 2x E - 2 Y S 24 6 2 2 Y 246 & 2 4 & 2 24 6 2 46 Even Number even Number even Number triangle triangle Vlta Square
+- Page 140: *Ques : Print the given pattern 1 2 3 4 5 6 7 8 9 10 Floyd’s Triangle n = Y I 2 3 Y n =2 n =5 I I I 2 2 3 2 3 3 U 36 Y 7 89 10 11 12 13 14 IS Homework - - 123 I 23 456 & 4 S 7
+- Page 141: *Ques : Print the given pattern 1 0 1 1 0 1 0 1 0 1 0 & 1 Triangle n =4 I 2 3 Y S -j I I if(i+; %2 = =0) print (1) 2 ⑧ I else O 3 10 I Y ⑧ 10 I S I 0 I ! f ↓ i
+- Page 142: Ques : Print the given pattern * * ***** * * Star Plus n is odd n =S - I 23 Y S j -- - - -- - ↑ # # # # if(i = =mid 11j = =mid) -x - 2 ## & ## dee e# -- -- 3 X X X * X -- Y #I
+- Page 143: HW : Print the given pattern ****** * * * * ****** Hollow Rectangle 123456 I Conditions for a 2 --- ' - - - 1) First row 2) Last Row 3)FirstCol 4) Last Col
+- Page 144: HW : Print the given pattern * * * * * * * * * Star Cross 12345; 7 - - 2 - - - when s * -- -- 3 - - - =n+1 --- i
+- Page 145: *Ques : Print the given pattern * ** *** **** Star Triangle Reverse I 234 j n =4 --- -> it (it; > =n+ 1) x 2 -- 3 de - Y i Method- 1 -
+- Page 146: *Ques : Print the given pattern * ** *** **** Star Triangle Reverse method-2 - Using 2 loops inside look - 123 Y 123 Y 12 3 U I - - I --- 3 1 x 2-- 3 - - 2 - 2 I 2 * * 3 - I 3
+- Page 147: Ques : Print the given pattern 1 1 2 1 2 3 1 2 3 4 Number Triangle Reverse - - - H. W & --- -- -
+- Page 148: HW : Print the given pattern Alphabet Triangle Reverse A A B A B C A B C D
+- Page 149: HW : Print the given pattern **** **** **** **** Rhombus -- - - - -
+- Page 150: *Ques : Print the given pattern * *** ***** ******* Star Pyramid 1234567 !--- I -- I X - 2 - I 2 * ** -- B ↑ - 3 * ** * * - Y * *** * * I i jc zit-1
+- Page 151: *Ques : Print the given pattern * *** ***** ******* Star Pyramid n =3 I -- 1 - - X 2 -- 2 - * * * 3 - 3 x * * * * n =Y nspe n-1 and nst+1 and
+- Page 152: HW : Print the given pattern Number Pyramid 1 1 2 3 1 2 3 4 5 1 2 3 4 5 6 7 solve by me
+- Page 153: HW : Print the given pattern Alphabet Pyramid A A B C A B C D E A B C D E F G
+- Page 154: *HW : Print the given pattern Number Pyramid Palindrome 1 1 2 1 1 2 3 2 1 1 2 3 4 3 2 1
+- Page 155: **Ques : Print the given pattern * *** ***** ******* ***** *** * Star Diamond I --- 2 -- 3 -- I - 2 - -> usp = 1, + 1 3 --- nst=2-3, -2 n =4
+- Page 156: **Ques : Print the given pattern * *** ***** ******* ***** *** * Star Diamond nsk =n-1 ! - - nst =1 -- e - if(icn)[ 6 - I nsp--; -- 1st +=2; 7- - 3 ↑ L n =4 ese 2 (is =n nsp +
+- Page 157: **Ques : Print the given pattern * *** ***** ******* ***** *** * Star Diamond n =1 u =2 X * X * Y * n =3 y X * A X * - X A * - N ↓
+- Page 158: HW : Print the given pattern Star Bridge ******* *** *** ** ** * * I- * ** - ** A - t * * * * t - - - = 2 --- -- A # --- 3 -- n =4
+- Page 159: *HW : Print the given pattern Number Bridge 1 2 3 4 5 6 7 1 2 3 5 6 7 1 2 6 7 1 7
+- Page 160: *HW : Print the given pattern Alphabet Bridge A B C D E F G A B C E F G A B F G A G
+- Page 161: **HW : Print the given pattern Number Pyramid Mast 4 4 4 4 4 4 4 4 3 3 3 3 3 4 4 3 2 2 2 3 4 4 3 2 1 2 3 4 4 3 2 2 2 3 4 4 3 3 3 3 3 4 4 4 4 4 4 4 4
+- Page 162: Functions Ch:5 & Pointers
+- Page 163: What and Why? inpute 1A- Output I y =f(x) =x+5 =f(8) =8+3 =69 Repetitions of Looks - for things thatare together Readable ~ After some time
+- Page 164: Basic syntax fun(){ // code } #include <stdio.h> #include <stdbool.h> int main() [ -> main I function 3
+- Page 165: return type - M Output -I - · Hi, I am Raghav Garg w- · Hey, Good Morning - - · How are you? ⑧ ·Hi, I work atPW ~ ~ I return 0; ⑧ 3 1, 6, 7, 8, 2, 3, 4, 5, 9, 10
+- Page 166: main() return ; L 11 Khatam ↑ 2) Give the value (if any) back tocalling function
+- Page 167: parameters e ~ ~ arguements, parameters ·Enter a number: 6 ~- · ↑I d t I · 6 is Even - Pass by value a
+- Page 168: Atype return means Ginish & give back the value - - ↳I Enter 24 no: 2 -- w I C I I enter 14no:6 W w ~w ⑯E ~ - - - 62 W v
+- Page 169: How functions work : ek ke andar doosra, doosre ke andar teesra - v · main - - · India ~e ⑳ · England -- · Japan - ⑧ I v ⑧ -- 3
+- Page 170: Function Prototype - useless d I & Error To counter the problem of calling int fun (into intb);
+- Page 171: Kaam ki baate : 1) main() ek hi baar aata hai. 2) Starts with main 3) unlimited functions
+- Page 172: Return type : Sum function se samajte hai int sum/inta, intb)< I return a +b; 3 int main (K I printf("%d", sum/8,71); 3
+- Page 173: Library functions ↳Saut (16) - 4 ↳pow(2,5) - 32
+- Page 174: Library functions
+- Page 175: ~ w N - ~ - v 3 v WE - - a b
+- Page 176: Ques : Combination and Permutation -> Fatral: n!=nxn-1xn-2x...3x2x1 Combinations ! "Cr -En-n! I 3) =1 = Sx -> 2!x 3! 2x1x x1 - 10 Rotation: ~Pr - n! -> Homework - (n-v)1 famel
+- Page 177: Ques : Combination and Permutation mco =ma!"In nc, === m
+- Page 178: Ques : Pascal triangle -> h =S I I I 2 I 7 2 I I 33 I I 33 I I Y 6 4 I I 464 I I S I 10 I I 10 S II I I S 10 10 S I 0!= 1, I! =I
+- Page 179: Ques : Pascal triangle O I 2 3 Y S O I 23 4S O I O ·Co I I I I 'Co, 2 7 2 I I 2 2202, 22 3 133 I 3 3 o 3 " s Y I 464 I Y "o "C, YCz "C3 "Cy S I S 10 10 S I S Co SC,2, , s dia;
+- Page 180: Ques : Pascal triangle Homework - ---- I ---- I --I -2- I 1 - 3- 3- 1 - 1 - 4 - 6 - 4- 1
+- Page 181: Scope of variable Local & Global Ankat S - ⑰ 7070 ~ a - v v W I ~ - 70 ~ G -
+- Page 182: Formal parameters and Actual Parameters -> formal parameters FP AP 1 L +ab variables/ the ade containers values > Actual Parameters
+- Page 183: Ques : Swap 2 numbers w 7 Output - A W M W Y W ~ 7 w - X y ~ 47 - * x is changed now permanently changed I 77 w w
+- Page 184: Ques : Swap 2 numbers int temp =x; A:Using extra dabba/variable - X =yi M-It:Withoutusing 34 variable y =temp; -- Sw(X, yS +2 -2 W ↓ - 6+2 - 2 6 +2 6 I Aim: X y x =x +y y =x -
+- Page 185: Pass by value & Pass by reference W ↳E W OutputInput ~ 3 ~ X - B temp 7 - ~ - 37 1 3 3 I 3 7 ~ - E 37 W - X y W --
+- Page 186: *Pointers inte y bytes float-y bytes int xi W W char-2 bytes inty; X y bool- 1 byte a SOO a 7UO X y
+- Page 187: *Pointers Output v d W 6 a soo ~ ↓ aS00 I · 90 v X 2 =90 - a 500 9700 W *- deneference operator star operator
+- Page 188: *Pointers 7 · 3 W 3 9400 ·7 G - W W X 2 W v Update/Change a 400 a S00 I e - -
+- Page 189: *Pointers - swap 2 numbers swapl u 9408 9800 3 ~ ↳ W L 3 ~ X y temo a 100 &200 - I - O &2 7 3 i Output w ~ A 37 ⑬ ↳ e ~ X y e 9400 a 800 e Reference
+- Page 190: State TRUE or FALSE : 1) The same variable names can be used in different functions without any conflict. TRUE
+- Page 191: State TRUE or FALSE : 2) Every called function must contain a return statement. 3) A function may contain more than one return statements. FALSE (exception isvoid] TRUE d but 
+- Page 192: State TRUE or FALSE : 4) Same names can be used for different functions without any conflict. FALSE L C++2 Java are OOD Languages butI isnot
+- Page 193: State TRUE or FALSE : 5) A function may be called more than once from any other function TRUE 6) A function can call itself (exceptmain) TRVE
+- Page 194: Recursion ekbadi problem using a chhotifroblem IE ↑ combinations Easy ↓ I a function calling itself Recursive Relations
+- Page 195: Function calling itself ~ · Good Morning i ~ · Good Morning ~ w w to stop it?
+- Page 196: 2 1 w X ~ a X Output W X W · Good Morning W ~ ⑧ 1 O ~ - L j A Good Morning ↑ ⑧- -- ~ I - Comprehensively a · DRY RUN
+- Page 197: Ques : Print n to 1 lusing recursion) ForEx:n =S I Output L S Y 3 2 I
+- Page 198: Ques : Print 1 to n - kind of harder than to 1 Output #:Using extra parameter ·I A 3 Y 3 ·2 w X & 3 ⑳ X --X W I 2 3 ↑ 3 3 I E - ~ X ~ v ~ ⑧ X ~ X 33 43 ~ ⑧
+- Page 199: Ques : Print 1 to n (after recursive call) -> withoutusing the extra parameter out - ~ 1 X ⑧ 0 X Enter n: 3 ⑧ V ~ :I ↑ 3 - I = =x 2 ↑ - 2 u - & 1 I - 2 v ·3 ~ X r w W -v 3 2 ⑧
+- Page 200: Concept in Recursion which isUVVIMP: mee fun //S base case I wire,in work 3
+- Page 201: Ques : Print sum from 1 to n (Parameterised) 3. X 3 Y ve a 7 output - X - ⑧ 2 7 X ~ 1 ⑨ Enter n:4. ↳ 10 ↑ Y O ~1 - R 9 I ↑ ⑧ x ⑧ x X ⑧ a w 3 U ↳ ·O 10 ~ 10 e 0v - - X --·X 7 -
+- Page 202: Ques : Print sum from 1 to n (Return type) - void, intr - no 1 Sum(5) =5 + 4 +3 +2 +1 sum(s) =S+ sum(n) - d sum/4) =4 +3 +2 + 1 E I Sum(y) =4 +sum/3) - sym(3): 3+ 2+ 1 I sum/3
+- Page 203: Ques : Print sum from 1 to n (Return type) 15 10 sym(s)=5 + sum/4) ↑sumb) Recursive tree /Radder - ↑ 3 +su (2) ↑ I 2+ seem(1) t recursive ↑ formula 1 [in =n +sum(n-1) E Sum(1)
+- Page 204: Ques : Make a function which calculates the factorial of n using recursion. n!=nxt3x241 5! =5x4x3 X2x fact(1) =1 fact(s) =3x2x1 I fact(0) =1 fact(Y) I 4 x 3x2x1 ↳ fact(s) =Sxf
+- Page 205: Ques : Make a function which calculates ‘a’ raised to the power ‘b’ using recursion. b S 2" =2x(2x2x2) a 2 =2x2x2x2X2 2" =2x23 d b a =axaxaxa .... a O C - a 2 S I 32 I b terms
+- Page 206: *Multiple Calls Ques : Write a function to calculate the nth fibonacci number using recursion. 1 2 3 S 8 13 21 34 5S 89/44&soon n =1 2 3 Y S · 8 9 10 11 12 fibo(z) =fibo(6) +f
+- Page 207: Recursion Tree me fibo(s) College Wallah S ↓ 3I -Final Playlists fibo(U) ↓ -d Sibol d C Programming I I ↓ fibo(z) +fibo(z) +fibo(l) Recursion ↓Fiboll fibo(z) +1 ↑
+- Page 208: HW : Power function (logarithmic) ↓ 332 = 3x33 332 =3x36 ab =? 331 = 3x330 31 =38 x38 3 8 =3 x 3 7 I 32 38 =3x 34 6 steps 37= 3 x 3 6 S calls 34 =32 x 32 calls 36 =3 x 3 S I 3
+- Page 209: Arrays int X; W X int m1 =80; int M2 =9S; & 1 S intm10 =77;
+- Page 210: What is an array? ↓ It is can be said as a list of items int/float/char) bool
+- Page 211: Syntax and Declaration ⑳ aname=24,1,7,9,23; Gintx( data size tybe 9/2 ↓ elements of away'x
+- Page 212: Accessing Elements of Array -- -using square brackets updation & indexing int air [4)= [10,20,30,403; ari too - printf )"%od", avr(23);
+- Page 213: Printing Output and Taking Input ↓ ↳ intx i I If I have to printall the elements scant("%od",2x); of an away Loops -> If away is of size 'n' then the indexing will be fromt
+- Page 214: intarr [] = [10,20,30,403; and it o arr (27 =90 d ↓ nx; bytes 16 bytes in
+- Page 215: Ques : Are the following array declarations correct? int a (25) ; int size = 10, b[size] ; int c = {0,1,2} ; Wrong ->int a[2s]; correct -- wrong int size =10; ↓ int b(size]; i
+- Page 216: Ques : Which element of the array does this expression reference? num[4] nam," It elementfrom start
+- Page 217: Memory Allocation in Arrays int a =10; ⑱ int b =20; W a D C intc =30; ↓ intaxr[3) =210,20,303; and lo I contiguous memory allocation
+- Page 218: Passing Array to Functions void swaplintx, intyl or I y 3- intmain))2 I int x =4; I inty =8; X y Swap (X,y); 3
+- Page 219: Passing Array to Functions For int, float, care pass by value pointeres pass by reference I different behavious
+- Page 220: Ques : Calculate the sum of all the elements in the given array. intavr() =2S, Y, , 9,63; Sum =0; $ 910192S
+- Page 221: Homework : Calculate the product of all the elements in the given array.
+- Page 222: Ques : Find the maximum value out of all the elements in the array. -- 01 2 > Y intarr[s]=(4, 8, 1,9,33; mx =Y;89 int mx =awr (0]; -ebm 5e Or m =max(a,b);
+- Page 223: Ques : Find the maximum value out of all the elements in the array. -> *ch-2 :intarr[4) =[4, 8, 1,63; 1 intmx=-1; -> problem Jyada Use hoti - int mx=INT-MIN;
+- Page 224: Homework : Find the minimum value out of all the elements in the array. ↓ 2 methods d intmn=aro]; then compare with Itonl ↳ intmm=FNT-MAX; -
+- Page 225: MCQ : What is the difference between the 5’s in these two expressions? int num[5] ; num[5] = 11 ; 1. first is particular element, second is type 2. first is array size, second
+- Page 226: State TRUE or FALSE : 1. The array int num[26] has twenty-six elements. 2. The expression num[1] designates the first element in the array 3. It is necessary to initialize the
+- Page 227: HW : Given an integer n. Create an array containing squares of all natural numbers till n and print the elements of the array. his Hill) as
+- Page 228: Ques : Given an array of integers, change the value of all odd indexed elements to its second multiple and increment all even indexed value by 10. I E isscintic
+- Page 229: Ques : Count the number of elements in given array greater than a given number x. arr =[1, 2, 3, 4, 5, 6, 73; target =4
+- Page 230: HW : Find the difference between the sum of elements at even indices to the sum of elements at odd indices.
+- Page 231: Ques:Search for an elementin an away 6 awr=[1,2,4,8, 16, 12,9,33 x =8 E bool -> true/false 110 d bool flag: false;
+- Page 232: Ques : Find the second largest element in the given Array. -> distinct number arr=[4, 1,2,2,5,6,6,8,9,93 # Hint:2 times for look - -imax, smat
+- Page 233: Ques : Write a program to copy the contents of one array into another in the reverse order. 01 2 3 4 5 6 - n =7 arr=21,2,3,4,5,6,73 brr[i]: arr[n-1-i] 01 2 3 4 5 6 bor =27,6,5
+- Page 234: Ques : Write a program to reverse the array without using any extra array. arr= [1, 2, 3, 4, 5, 6,73 01 2 3 4 5 6 ↳ arr= 27,6, S S 4, 3, 2,13 i j int i =0; while (ij, int j=n-
+- Page 235: Homework : If an array arr contains n elements, then check if the given array is a palindrome or not. -> racecar -> malayalam -> arr=[1, 2, 3, 4, 3,2,13 arr= [1,2, 2,13
+- Page 236: 2D Arrays ID away/Away, list All S students -> D, C, M ↓ 2 dimensional arrays
+- Page 237: What and Why? So far we have explored arrays with only one dimension. It is also possible for arrays to have two or more dimensions. The two dimensional array is also called a
+- Page 238: int arr[3][3] int air [2][2]; 0 I 0 I 2 I 34 int aur [2][4]; arr [0][0] =1 arr (0][1) =2 I arr (1390) =3 - arr (1][I] =Y
+- Page 239: 2D arrays can be called as away of 'aways' -> [1,2,33 I [E1, 2, 33, 34,5,63,[7,8,933 -> [4,5,63 - - [7,8,93
+- Page 240: Initialisation of a 2-Dimensional Array int arr[4][2] = { { 1234, 56 }, { 1256, 43 }, { 1434, 32 }, { 1312, 96 } } ; int arr[4][2] = { 1234, 56 , 1256, 43 , 1434, 32 , 1312, 9
+- Page 241: intarr [4322) =[[1,23,93,43,45,63,47,833; ⑧ f ② 12 I 3 Y I 2 S ↓ 6 3 7 8 08 - int arr[US[2] =5 1, 2, 3, 4,5,6,7,8)
+- Page 242: Ques : Write a program to store roll number and marks obtained by 4 students side by side in a matrix. Raghav Harsh Urvi Sanket 76 88 82 -1 82 91 98 80 -> Raghav 76 80 int arr
+- Page 243: - Nate re I output I 23 Y S 6 78 9 1, 2, 3 -> air(0][2] autoscostaur[o][
+- Page 244: Output- Column wire -> Transpose ne Output - I 2 3 147 YS 6 25 8 7 89 369
+- Page 245: Ques : Write a program to store 10 at every index of a 2D matrix with 5 rows and 5 columns. - 10 10 10 10 10 10 10 10 10 10 " 10 18 10 10 10
+- Page 246: Ques : Write a program to add two matrices. : C a
+- Page 247: Ques : Find the maximum element in a given matrix. same as ID away
+- Page 248: HW : Find the minimum element in a given matrix.
+- Page 249: HW : Find the sum of all elements in a given matrix.
+- Page 250: HW : Find the product of all elements in a given matrix.
+- Page 251: HW : Given a matrix ‘a’ of dimension n x m and 2 coordinates (l1, r1) and (l2, r2). Return the sum of the rectangle from (l1,r1) to (l2, r2). print m =5 rows (11, 21) =20,1) (
+- Page 252: Ques : Write a program to Print the transpose of the matrix entered by the user. Done ↳column-wiseprintingthe 1
+- Page 253: Strings Array - collection of variables int avr(s]; d Char arr [4]= int, char, float d char arrays arr:S'va;','h,aiv's
+- Page 254: What are strings? char arrays (mostly)
+- Page 255: Printing character array with loop ↓ This can be done, butis it not hectic? X It is -> Raghav is a teacher atDW.
+- Page 256: Now, let’s print character array with null character ↓ done, it doesntshow in output -> chaw aw=','',h'ia','v,70'3; I raghar
+- Page 257: Initializing a string Just how we make arrays! (Already done) char str[] = {‘P’, ‘h’, ‘y’, ‘s’, ‘i’, ‘c’, ‘s’, ‘ ’, ‘W’, ‘a’, ‘l’, ‘l’, ‘a’, ‘h’, ‘\0’};
+- Page 258: Initializing a string A Better Way char str[] = “PhysicsWallah”; What is the size of str? e?
+- Page 259: Initializing a string Assigning string literal with size: char str[50] = “PhysicsWallah”;
+- Page 260: Think… Is the following code snippet correct? char str[13] = “PhysicsWallah”; I wrong, give sto a win size of 14 arrestr
+- Page 261: Accessing individual characters char str[] = “Physics Wallah”; Predict the output? (a) printf(“%c”, str[5]); (b) printf(“%d”, str[9]); 01 23456789101112 - C - ascirvalue of b
+- Page 262: Modifying individual characters char str[] = “Physics Wallah”; Predict str after: (a) str[0] = ‘M’; (b) str[1] = 97; Mhycice Wallah Maysics Wallah
+- Page 263: Input and Output of string without loop (puts &gets / d using %s' formatspecifies
+- Page 264: Can we use string (character arrays) as pointers? char str[] = “PhysicsWallah”; char *ptr = str;
+- Page 265: We get another way of initialising strings char *ptr = “Physics Wallah”; Note: Such direct initialisation using pointers results in a read-only memory allocation of character 
+- Page 266: Interesting thing about such initialization char str[] = “Physics Wallah”; printf(“%s”, str); str = “College Wallah”; Error!
+- Page 267: char *ptr = “Physics Wallah”; printf(“%s\n”, ptr); ptr = “College Wallah”; printf(“%s”, ptr); Works perfectly! Interesting thing about such initialization ~ ~ I Physics Wallah
+- Page 268: Why does this happen? Pointers change the address to which they point after initialising a new character array! char *ptr = “Physics Wallah”; printf(“Address 1: %p\n”, ptr); p
+- Page 269: Using heap memory Storing str in writable heap segment
+- Page 270: Implement: Copy one string to another char s1[] = “Physics Wallah”; char *s2 = s1; // Let’s change in s1. s1[0] = ‘M’; printf(“%s”, s2);
+- Page 271: Making our tasks easy! Useful functions for C already in standard library! strlen(char *str) Returns the length of string strcpy(char *s1, char *s2) Copies the contents of str
+- Page 272: How. Reverse a given string - - ↓ 0123456 char str)l:"ragharlo"; ↳ n =7 L i =0,j =6
+- Page 273: Structures
+- Page 274: What are Structures? struct student{ int rno; char grade; float percent; }; user defined data ty/za - dabbe int, float, car I student Every studenthas some common properties d
+- Page 275: intxi ⑤ x =3 X Student Xi ⑰2/ A int intx; Jaatafe * Ineprint/class object
+- Page 276: grade who percent 195.41 - - W -
+- Page 277: Why Structures? f + f 2D array I I i ↓ E 2 Raghav 90.1 urvi 95.4 Sanket ⑧↳ Harsh 93.2 96.8 float 240 Grade per
+- Page 278: Array approach vs Structures ↓ d Same data type Re Biff.data types fou a specific class multiple objects ho store Karna
+- Page 279: Ques : What should be preferred to store 10 floats in a memory? Array or structure? ~
+- Page 280: Ques : State true or false An array should be used to store dissimilar elements, and a structure to store similar elements. ~
+- Page 281: Structure variables Declaration, Initialization and Accessing - ~-v L L ↓ dot operator Struct student 31;
+- Page 282: Ques : Create a structure type ‘book’ with name, price and number of pages as its attributes -> classwork struct book [ char name (20]; floatprice; intno of pages; 3; Structbo
+- Page 283: Ques : Find the error struct emp{ int ecode; struct emp e; } struct emp [ ecode int ecode; 1 E 3; 2 ·d structempe; structempe; ecodeAlI 2
+- Page 284: Ques : Create a structure type ‘Person’ with name, salary and age as its attributes. Declare and initialize 2 variables for this. Print the name of first person and age of the
+- Page 285: How are structure elements stored? ↓ Memory Allocation intx; s ybytes 1 Merent are e blt 6; -y bytes charch- 2 bytes 8 bytes migans
+- Page 286: Typedef in struct ↳
+- Page 287: Array of Structures Why? ↓ So students Kadata, a height, uno, grade ↓ int awr [SO]; studentaur[S0];
+- Page 288: Array of Structures Declaration and Access L ↳ W
+- Page 289: Features of structures Copying one structure variable to another of the same type int x =4; - ⑰ L X int y =X; Student32:S1 d ↓ 6M y =6 y
+- Page 290: Features of structures Nesting one structure within another structure Struct car [ supercar char type [20]; I carV+ extra int price; ↓ floatopspeed; Chasis,spoiler 3; macbook 
+- Page 291: Ques : maruti.engine.bolts = 25 ; Which of the following is True? 1. structure bolts is nested within structure engine 2. structure engine is nested within structure maruti 3.
+- Page 292: Features of structures A structure variable can be passed to a function -> passed by value w 7/B 76 70.7 - ~ B /B I B B ~a /'B - ⑧W ~
+- Page 293: Features of structures Structure pointers for pass by reference
+- Page 294: What are Unions? union student{ int rno; char grade; float percent; }; -> structures only - space efficient ↓ d butwith a discipline 1 /A d At a time only one struct - 10 byte
+- Page 295: Finish: - ↓ Youtube d Wait, File Handling I college d Wallah DMA Playlist preproccenor, Macros L C Programming Course ↓ File Handling
+- Page 296: THANK YOU Maza aa gaya - Lecture Complete
+
+## COneShotPart5(1).pdf — 34 pages
+
+- Page 1: C in One Shot Part - 5
+- Page 2: Functions in One Shot
+- Page 3: What and Why? y = f(x) w I y =f(x) =n + 3 8)Repetition (to avoids - loops 2)Readable
+- Page 4: External ↑ function ·Good morning · How are you? - - · Good Morning - Khatam · How are you? I · Good Morning 2 call · How are you? R &RY - do not repeat yourself
+- Page 5: Basic syntax fun(){ // code }
+- Page 6: main() return ; -> starts from main() ↳Khatam
+- Page 7: How functions work : ek ke andar doosra, doosre ke andar teesra
+- Page 8: Kaam ki baate : 1) main() ek hi baar aata hai. 2) Starts with main 3) unlimited functions
+- Page 9: Return type : Power function se samajte hai
+- Page 10: sum of 2 numbers return type -arguments - * tadd (inta, intb)< return a +b; -N -w 3 return 7; main() E inta, bi iscant(a), and,at 3 W Wo
+- Page 11: Library functions &rintf ("Hello"); scant("ood", (n); sqrt (49); pow(2, 3), ->23
+- Page 12: Function Prototype - useless F
+- Page 13: Ques : Combination and Permutation n = 7 # wc = urs v = 3 I 31. 4! int combination (intn, intr) ( 1code 3 (n - v)! =(n -v)x(n - r - 1) w ↓ number
+- Page 14: Ques : Combination and Permutation ncw = nfact/rfact *uefact = Hact x urte " = (+1 - +2 = u = *SAT or = 35
+- Page 15: Ques : Pascal triangle A O I 2 = 21 I 1- 1 2 1-2- 1 -to 3 1 - 3 - 3 - 2 Y 1-1 - 6-4 - 1 K -1 - 3 - 10 -10 - 5 - 1 6 1 - 6 - 15 - 20 - 15 -6 - I *work: "Pre function "Pr:ch
+- Page 16: Ques : Pascal triangle j - O 12345 + U O 12345 + U O I 0 Co & I I I L 1 To 'C, 2 12 1 2 "%, 3 7 33 1 I 33632, 3C "C Y I 464( Y "C","Y,"Cy S I - 10 10 S I S d A A ↑ i i Cj
+- Page 17: Ques : Pascal triangle OPTIMISED Ultimate Method - "Maths' ncr+= - 0 0Co (n + 1)!x(n - r- 1)! - "Co 'C, · 5 "Cr+ = H- 24.2C 22 3 33C, 3C, "C 4 "C YC, nc,rc, rc=-a.*anrore - (n
+- Page 18: Ques : Swap 2 numbers inta =3; intb =5; V ↳W a b temp int temp; temp = a; a =b; b = temp;
+- Page 19: Ques : Swap 2 numbers without using a third variable * s -+58755 * S W S a b a =a +bi b =a - b; a =a - b;
+- Page 20: Scope of variable C aukat ↳ limit swapout 3 3inti,. . . is 3 3
+- Page 21: Formal parameters and Actual Parameters void swap (inta, intb/< int temp = a; a=b, b= temp; return; 3 int main (75 a =2; a&b are formal b =9; I & swap (a,b); 209 are actual
+- Page 22: Pass by value & Pass by reference void swap(inta, intbia got to emp int temp = a; a=b, b= temp; return; 3 int main (75 a =2; WE b =9; 2 swap (a,b); a b
+- Page 23: *Pointers ·otes ↳ variable ka address stone inta =5; W * int* x = ca a sh *x =7; 3 x 20 U 6y522 &rintf("Oop", x); e Sx204 Printf(""op", (n); = 6y322 printf("Olod", *n); e5
+- Page 24: *Pointers Swap 2 numbers pass by reference void swap (inta, intb/< int temp = a; a=b, b= temp; return; 3 int main (75 a =2; a&b are formal b =9; I 2 Swap (a, 2b) ; 209 are act
+- Page 25: of *5N a b zoox stox 500x 000x W temp 900x
+- Page 26: *No a w x300 x400 xs *x + 25 [Pod] * y - x300[%p] ** y + 25[Pod] 1) Gate Wallah - (Programming 2)C++ -> pointers
+- Page 27: Ques : A positive integer is entered through the keyboard. Write a function to obtain the prime factors of this number. Homewor K -= - . - Ilint: use separate function to deck
+- Page 28: Ques : Write a function to compute the greatest common divisor of two given numbers a, b GCDj HCF ↓ highest common factor 24 + 1, 2, 3, 4, 6, 8, 12, 24 6 0 - 1, 2, 3, 4, 5, 6,
+- Page 29: State TRUE or FALSE : 1) The variables commonly used in C functions are available to all the functions in a program. 2) To return the control back to the calling function we m
+- Page 30: State TRUE or FALSE : 4) Every called function must contain a return statement. 5) A function may contain more than one return statements. 6) Each return statement in a functi
+- Page 31: State TRUE or FALSE : 7) A function can still be useful even if you don’t pass any arguments to it and the function doesn’t return any value back. 8) Same names can be used fo
+- Page 32: State TRUE or FALSE : 9) A function may be called more than once from any other function 10) It is necessary for a function to return some value. True No. False
+- Page 33: HW : Print the factorials of first ‘n’ numbers ↳ using function
+- Page 34: HW : Print first ‘n’ fibonacci numbers. ↳using functions
+
+## 2Darrays(1).pdf — 33 pages
+
+- Page 1: 2D Arrays in One Shot
+- Page 2: What and Why? So far we have explored arrays with only one dimension. It is also possible for arrays to have two or more dimensions. The two dimensional array is also called a
+- Page 3: aur 8 maths 12 3 M S 6 789 arr [3] =8 marks o I 2 3 us 678 ↓ 110 index 0 1234 5 6 Ply ⑥ 123 4 S 635 bou [I](4] =100 Chem 1 7 8 9 10 100 1 2 2 3 Y S 11 13/2 IS -cell Math bru b
+- Page 4: intarr [33[2]; o 1 awr90190] =1; 0 aur(03/0] arr[03C1] aur90][1] =2; I aw(1][0] acr(ICI] ↓ ↑ - 2 aur(2720] awk]21] -
+- Page 5: & What is actually 2D asway int and [2][n] ↓⑭
+- Page 6: #immunoprint theelements are for (it i =0;i(;i +1 ) for (int j =0;jz;j ++) 012 0 aCO3[o] aCoJCl] aS0TK] 1 I printf ("%od", a(i][s]); 3 1 aCl]Co] all][l] aSl][2] printf("\"); 3
+- Page 7: Initialisation of a 2-Dimensional Array int arr[4][2] = { { 1234, 56 }, { 1256, 43 }, { 1434, 32 }, { 1312, 96 } } ; int arr[4][2] = { 1234, 56 , 1256, 43 , 1434, 32 , 1312, 9
+- Page 8: Ques : Write a program to store roll number and marks obtained by 4 students side by side in a matrix. R. No. marks #H user input - noof students d I Marks of P, C, M Raghav ⑥
+- Page 9: Ques : Write a program to store 10 at every index of a 2D matrix with 5 rows and 5 columns. ⑥ 12 34 int arr[S][S] = [10,10,10,....3 d 10 10 10 10 10 1 1010 10 10 10 2 1010 10 
+- Page 10: Ques : Write a program to add two matrices. ⑲ 1 d I o 1 ⑥ 1 2 · S 6 06 8 ↳ 1 3 Y 1 7 8 110 12 inta (23(2) =21,2,3,43; res(iii] :a(i](s] +b(i)5] int b (23(2) =[5,6,7,83; int re
+- Page 11: Ques : Find the sum of a given matrix of n x m. ↓ ↓ columns 012345 67 rows 135248/2 sum =0; Homework Find - 1) outthe maxelement mint elementin a 2D array 2) & the indexof max
+- Page 12: HW : Given a matrix ‘a’ of dimension n x m and 2 coordinates (l1, r1) and (l2, r2). Return the sum of the rectangle from (l1,r1) to (l2, r2). int a(m][n]; a(i]]e (i,j) 01 2 34
+- Page 13: Homework : Write a program to print the row number having the maximum sum in a given matrix. & the maxSumsow maxsum = o 7 2 3 -> o 123 1 7 10502 7 29003 12
+- Page 14: Ques : Given a matrix having 0-1 only, find the row with the maximum number of 1’s. 0 2 3 o 1 o 1 1 7 o 1 . 2 100 I
+- Page 15: Ques : Write a program to Print the transpose of the matrix entered by the user. (Leetcode - 867) transpose? :1 1 Y 2 s 3 6 1 are(23[3] o ⑥ (0.8)(1,0) (0,1)(k)) pip,na,
+- Page 16: Ques : Write a program to Print the transpose of the matrix entered by the user. (Leetcode - 867) & Store itin a separate matrin d 1 2 ⑥ 1 o 12 3 -> o 11 I Y 56 1 29 arr (2][3
+- Page 17: Ques : Write a program to Print the transpose of the matrix entered by the user. (Leetcode - 867) * given to change the non matrixto its transpose. 012 o 1 2 o 1 23 o 17 7 145
+- Page 18: d 1 2 3 ↑ 0 (0,0)(0,1)(0,2)(0,3) & I(1,0)(1))(1,2)(13) 2(2,0)(2,1)(2,2)(2,3) 3(3,9(3,4)(3,2)(3,3)
+- Page 19: d 1 2 3 ↑ Y 13 o 7 2/23/3 M & 7 * I 43 6 if 818 2 939 10,0 11 123 i+ 0tn- 1 134 AM By 3 13 /Y IS 16 i+ n- 1 * i
+- Page 20: Ques : Write a program to rotate a matrix 90° clockwise. (Leetcode - 48) original transpose rotated 90 123 147 7u 1 Y S 6 2 S 8 8 5 2 7 8 9 3 69 963 G arr(3][3]
+- Page 21: #ll ili Steps:1) Transpose 2)Reverse eachnow, ⑮ a / B jjkk
+- Page 22: Ques : Write a program to print the multiplication of two matrices given by the user. &* u S 0 1x5 + 2x7 1x6 +2x8 ·(i) +1),j = I ·nx] =(55%) 7 3x5 +4x7 a[c][2] b(27/2] res[2](
+- Page 23: 0 12 01 2 ·! ⑥ 2 10 2 1 2 o 6 12 1 2x1 121 p 1 I I 21 il - , ,,,, = 1x1 +2x2 +(x) =6
+- Page 24: # Immatrix multiplication: aSmiCn] x b(p][9] =res(m][q] - - 1) n = =p 2) resultantorder is ma 3) AXB = BXA
+- Page 25: -foot:a · a[z](17 res[1](1] 3x1 +4x2 =3 +8 =1/
+- Page 26: o 1 o I 2 3 ⑥ Δ 12 3 o 0.0 0 I (1,2) 1 X = 1 2 2 b(z][y] a[3](z] res(3](u] res(l](z] =aCI][0] *b(07k] +aCi[i] *b(,3[2]; res(i)(5]:it row of a *ith column of b res(i][i] =(a(i]
+- Page 27: 11 1Y 1720 1 I 2 I 1 ! xxes:337 =20 sowe 3: "( 35 465768 res(i)(5] =aCi](n] +b(n][i]
+- Page 28: B. Wave print-1 Output 0 ↑ 2 123 ⑥ I 23 654/123634789 1 456 789 2789
+- Page 29: no of columnn a <m]n] IW: wave print-2 no of rown:m Algo: 0 ↑ 2 if (column no = =even ⑥ I 2 3 now no -> m -1 to 1456 3 es4 278 9 rowno - 0 to m- 1 3
+- Page 30: Ques : Given an n x m matrix ‘a’, print all elements of the matrix in spiral order. (Leetcode - 54) 0 ↑ 2 Output: 123698745 ⑥ I 2 3 1456 1237 2789 5678 9 10 11 12 723481211109
+- Page 31: polmai iE mine output 12 3 48 12/11095676 count =0x2* ** *** *** * * 13
+- Page 32: 0123u5 mins X - loop2 minu+ + a [minv][coe] 3 coleminc to max minu maxc -- (minr-maxr) maxr [everse] :if maxr maxc maxc-minc man-- Δ 3 minc (reverse] u 30 minc++ I maxremin mi
+- Page 33: HW : Given a positive integer n, generate a n x n matrix filled with elements from 1 to n2 in spiral order. (Leetcode - 59) &quare ⑨ - n =3 I 2 3 g 9 Y 7 6 S a(i][i]
+
+## StringsNotes(1).pdf — 31 pages
+
+- Page 1: Strings in One Shot
+- Page 2: Quick revision of arrays f o 1234 S data structure collection 1 3 4276 iar(z] =4 3 arc (27:7 char arr[s]; int n; floaty; charch;
+- Page 3: Quick revision of characters Characters and ASCII values, a must understand concept! charch='a';int u =5; ↓ W ch 2 1 byte 4 bytes 32 bits-232numbers ↓ 315231 - 1 8 bits - 2 ↓ 
+- Page 4: Quick revision of characters Characters and ASCII values, a must understand concept! 'A' - 65 (a' - 97 (0-48 (9) - 57
+- Page 5: What are strings? ↓ character aways
+- Page 6: Creating character arrays Hello World ↓ char avr[11]:S.4; '??, '1'll, '0'', 'W'0" 'v,'l,'d'3; for (iti=0 ;i < 1);i+ +1 I printf ("%c", avu(i]); 3
+- Page 7: Printing character array with loop
+- Page 8: Now, let’s print character array with null character a b's A" p' ( Null Character - 10 - 0
+- Page 9: Creating string Is grouping of characters into array enough? ↓ char aur[] =5'4, 'e', '','l', '0'); ↓ char arr)]="Hello";
+- Page 10: Initializing a string Just how we make arrays! (Already done) char str[] = {‘P’, ‘h’, ‘y’, ‘s’, ‘i’, ‘c’, ‘s’, ‘ ’, ‘W’, ‘a’, ‘l’, ‘l’, ‘a’, ‘h’, ‘\0’};
+- Page 11: Initializing a string Assigning string literal without size char str[] = “PhysicsWallah”; What is the size of str? -14
+- Page 12: Initializing a string Assigning string literal with size: char str[50] = “PhysicsWallah”; f 13 +1
+- Page 13: Think… Is the following code snippet correct? char str[13] = “PhysicsWallah”; ↓ erroy
+- Page 14: Accessing individual characters char str[] = “Physics Wallah”; Predict the output? (a) printf(“%c”, str[5]); (b) printf(“%d”, str[9]); C 97
+- Page 15: Modifying individual characters char str[] = “Physics Wallah”; Predict str after: (a) str[0] = ‘M’; (b) str[1] = 97; intaur [S] = [1, 2, 3, 4,53; arr [0J =10; - Mhysics Wallah
+- Page 16: Ways of printing particular element arr[i] *( arr + i ) *( i + arr ) i[arr]
+- Page 17: Input and Output of string without loop * gets(), puts () "" a character
+- Page 18: Can we use string (character arrays) as pointers? char str[] = “PhysicsWallah”; char *ptr = str; college Wallah 10 ↑ Ptz Output - 20
+- Page 19: We get another way of initialising strings char *ptr = “Physics Wallah”; Note: Such direct initialisation using pointers results in a read-only memory allocation of character 
+- Page 20: Interesting thing about such initialization char str[] = “Physics Wallah”; printf(“%s”, str); str = “College Wallah”; Error! In normal initialisation, we can modify individual
+- Page 21: charptr="College Wallah"; memory College Wallah ptw= "Physics Wallah"; &in no wee ↑ char strl]:"College Wallah"; ptr chartpty =str; College Wallah ptr:"Phycics Wallah"; str pr
+- Page 22: P College Wallah ↑ str P
+- Page 23: char *ptr = “Physics Wallah”; printf(“%s\n”, ptr); ptr = “College Wallah”; printf(“%s”, ptr); Works perfectly! Interesting thing about such initialization Physics Wallah * ptw
+- Page 24: Why does this happen? Pointers change the address to which they point after initialising a new character array! char *ptr = “Physics Wallah”; printf(“Address 1: %p\n”, ptr); p
+- Page 25: Implement: Copy one string to another char s1[] = “Physics Wallah”; char *s2 = s1; // Let’s change in s1. s1[0] = ‘M’; printf(“%s”, s2); M hysics Wallah S1 ↑ 92 shallow copy
+- Page 26: Implement: Copy one string to another char s1[] = “Physics Wallah”; char *s2 = s1; // Let’s change in s1. s1[0] = ‘M’; printf(“%s”, s2); Not a deep copy: Here, s2 points to th
+- Page 27: Copy one string to another creating a deep copy char strl]:"Hello"; char str2 [] =
+- Page 28: Making our tasks easy! Useful functions for C already in standard library! strlen(char *str) Returns the length of string strcpy(char *s1, char *s2) Copies the contents of str
+- Page 29: charsIET:"Raghar"; Raghav Garg char s2/5]: "Garg"; strcat (S1,s2);
+- Page 30: Inserting a character in a string Write a function to insert a new character in a string at a given position. Q ↳ char strls:"College"; index 2011 eg2 ↳ 0123456 2nd index - 'l
+- Page 31: Reverse a string * take input a printreverse
+
+## Recursion(1).pdf — 35 pages
+
+- Page 1: Recursion in One Shot
+- Page 2: What and Why? n! =ux(n - 1)! f(x) =nx f(n-1) - Recuence Relation Loops -> Factorial of a number n! =nxn - 1xn - 2xn - 3.... 3x2x1 5)= Sx4x3x2x1 5.= 3x4! 4! = 4x3x2X( u =4x3!
+- Page 3: Function calling itself factorial (n) = n* factorial (n-1); int factorial (int n) [ n! =n+ (n - 1)) return n* factorial (n-1); 3 1 =1 ba 5!= 5*a n!= 4*3 a3!= 3*2a2!= 2*1 I I ⑨
+- Page 4: Ques : Make a function which calculates the factorial of n using recursion. 3 & 3 factorial (2); u X factorial (3); 2 2factorial (1) n =4y 2 1factorial (0) O 8* factorial (-1)
+- Page 5: 5 storal co 2 I & - u*al (3):24 3 2 & 3 factorial (2); - 2+onaleand . . . 2 =6
+- Page 6: Fragram fact(s) *S* fatu)24 -> 120 u + faL3)6:24 fo 3 *(2)2 = 6 d 1 = 2 2 * f1) ↓ I
+- Page 7: Ques : Print n to 1 using recursion Output int decreasing (int n) < 7 6 3 I 3 2 I intimes good morning
+- Page 8: S O ~ Output -· M & x ·Good Morning . . - . d I & de · Good Morning v r · Good Morning v r · Good Morning · or N 3 & ~ O I · Good Morning & d 2 3 - ⑧ A 2 I O w v c v v U I v I
+- Page 9: fun) >[ ↑base case code recursive call I code ↑return 3
+- Page 10: Ques : Print 1 to n L Output- out: I & I 2 O 2 n =5 3 & 3 Y · Y S o S Using extra parameter I g 6 :
+- Page 11: Ques : Print 1 to n & parameterised) Output · 2 · 3 S 15 I O I · U ·5 n =5 ⑧
+- Page 12: Ques : Print 1 to n (after recursive call) O Output . . . . · I - . . . & ⑥ 3 - * 2 r v & I p ⑧ 3 v ⑧ 2 U / * ↑I ↓ r O · Y o 3 - - v X v 2 w / & - o I ve v C
+- Page 13: #work: Print Decreasing - Increasinga n =4 -> Y 2 I I 2 3 Y #tnt: Call sepeble, call be bord HWn = 3e DRY RON
+- Page 14: Ques : Print sum from 1 to n (Parameterised) n =Y,s =0 Y O & 9 O 10 Output ~ v v v & 1 O v ~ y - - v - & ⑳ 3 Y & o O 10 & i = = I . . . . . - v - Are U 2 7 & - - - r v - - - N
+- Page 15: Ques : Print sum from 1 to n (Return type) factorial (n) = n* factorial (n-1); sum(n) =n +sum(n - 1); sum(s) =1 + 2 + 3 + 4 + 5 =5 + sum(Y) u + Sum (3) d 3 + sum (2) ↓ 2 + sum
+- Page 16: Ques : Make a function which calculates ‘a’ raised to the power ‘b’ using recursion. int power =1; ab =axaxaxa... - inta, b; b times for(inti = 1; i <b; i + +< power-powera; i
+- Page 17: *Multiple Calls Ques : Write a function to calculate the nth fibonacci number using recursion. 1 1235813213455 89... 1234567 89 &D 1) fibo (n) = fibo (n-1) + fibo (n-2); if (n
+- Page 18: -fibo(s) (n ==)((n ==2) Head-A return I ↓ d fibo(2) + fibe
+- Page 19: Ques : Stair Path - I I I 1 +U S 111 2 N stair 1211 single step, double step Y 1128 no. of ways, so that 21 1 1 the person reaches nth 3 122 stair. 2 212 n + n - 1,n - 2 221 M
+- Page 20: Ques : Stair Path - 2 1 1 1 1 Tw 112 +U I 21 N stair 2 ↑ I 22 13 ·inscotor tablesteda 31 stair. M 1 g
+- Page 21: Ques : Power function (logarithmic) b a = aabr; it (b ==0) return 1; - pow(a,b) =pow(a,b(z) ab b12*able; por(a,b/2) 26 =2263 = a 64 32 63 =2*262 2 -2332 2 6 & 64 2 32 = 2+ 2 1
+- Page 22: Ques : Power function (logarithmic) a=aPl2x abl2 #Station: if bis even #Problems a= abl2xabl2 m 7 -272x512 2 2 if bis odd C 27 = 2 3 x 23 = 16 ab =aP2aP12x a *** b =S 2=232x31
+- Page 23: 29 = 2 + 2" + 2; 2= x(*; 2 2 = Ex 2 2 = 20x 20 =2; T a =2 I b =9 b + b(z + b/a+b81 a b # b calls 2 2100 =100 calls
+- Page 24: a"-bcalls log(b) calls 2: b + + k + b+.... 22 G .D. C =Co b)-log n terms ⑤an an = a,x2" 8 n- 1 a s = 1 b =1x2 R v =z -b =ce=
+- Page 25: Ques : Maze path *** no. of ways -> Down, Right 1 'I stepata time' n,m 1 2 3 1 & DDRR :po DRDR 2 DRR D DRR 3 RRDD MRD - R DRD RDR RDD R # i/apR
+- Page 26: Ques : Maze path n =3,m =3 3 2 1 Down ->(n -1,m) 3 & Right -(n,m - Y 2 if(n = =1 2&m = =1) return 1 1 - if (n = =1)Ican't go down rightways += 3
+- Page 27: I 1 a lot on 2 100 1222 2222 0 1 1
+- Page 28: Call Stack am - to -actcul I I & -main M ↑ 2nd disk 1< 1 ⑰ -
+- Page 29: Pre In Post :El · Pre 2 · In 1 · Post 1 · Post 2
+- Page 30: Pre In Post ↑ Output - Tree Diagram · Pre2 vrypcp(2) · Dre 1 · In 1 cy/dic I · Post2 pip (1) post 1 · Post 1 Sofo · In2 · Pre 1 · In 1 · Post 1
+- Page 31: Ques : Print zig-zag Input Output 1 111 2 211121112 3 321112111232111211123 4 432111211123211121112343211121112321112111234
+- Page 32: Ques : Tower of HANOI x & Last - ⑨ Biggest disk to the 3rd rod #& s A - C A - B c + B Input en -n of disks A+ C disks min moves 33 33 - 1 =7 I 1 - A y-2" - 1 =19 3 3 - 23 - 1 
+- Page 33: Ques : Tower of HANOI As B # A - C B +C n =2 m. moves - 12 - 1 =3 #!
+- Page 34: Ques : Tower of HANOI n-/ disks ↑ S-> H small pyramid, calle 1 s6G estimation S -A largest disk H - A small pyramid, call
+- Page 35: Ques : Tower of HANOI #
+
+## Structures(1).pdf — 32 pages
+
+- Page 1: Structures in One Shot
+- Page 2: What are Structures? Struct employee{ int emp_id; char name; float salary; }; -> user defined data types S 1 u bytes intxi- floaty; char hit byte class-students - wll no, mark
+- Page 3: Why Structures? Grade, percentage, ROII No ↓ Raghav ↓ ↓ int sanket char float Manvi chairgradesA ('B' 1' As Urvi floatper() S.S/74.3/98.1 introll S] /81/92
+- Page 4: Pemon's - Dikachu 60 Health 100 speed 70 attack Charizard 80 Heallth 80 speed 130 attack Laptop- Processer, Storage, Ram, screen, int Xi keyboard, trackpad inty;
+- Page 5: # speed attack to re pikachu speed attachio in chanzard intxj 1
+- Page 6: Array approach vs Structures ↓ ↓ Multiple attributes diffees 50 car s name ↓ - ↓carisno. of seats name Engine Power
+- Page 7: Ques : What should be preferred to store 10 floats in a memory? Array or structure? -> Array, 'same data type "
+- Page 8: Ques : State true or false An array should be used to store dissimilar elements, and a structure to store similar elements. - False
+- Page 9: Structure variables Declaration, Initialization and Accessing struct pokemon pikachu; structive pokemon int hp; -Ned attach defense their name, 1 I int speed; intattack; # ope
+- Page 10: Ques : Create a structure type ‘book’ with name, price and number of pages as its attributes Struct book [ char name (S0]; float price; int no of Pages; 3 &
+- Page 11: Ques : Find the error Struct emp{ int ecode; struct emp e; } I ecode ⑨ struct emp intecode; 3; struct empe;
+- Page 12: · & classes struct pokemon int up; ·int attack; Pokemon - Class int speed; ↓ 3 structlegendaryPokemon pikacheobjects of class pokerone int specialattack; structpokemon *;mente
+- Page 13: Ques : Create a structure type ‘Person’ with name, salary and age as its attributes. Declare and initialize 2 variables for this. Print the name of first person and age of the
+- Page 14: How are structure elements stored? ↓ elements are stored in a continuous memory location
+- Page 15: Typedef && the multiple pointer declaration problem typedef old name newname;
+- Page 16: Array of Structures Why? intaur] -array of integers char arr)] - away of characters/strings typedef Struct pokemon int hp; I pokemon arr)] -> away of pokemon int attack; int s
+- Page 17: Array of Structures Declaration and Access -> aur(i]. attribute; typedef Struct pokemon int hp; int attack; awro] aroi] ark] int speed; char fier; char name (1S]; 3 pokemon; p
+- Page 18: Ques : A record contains name of cricketer, his age, number of test matches that he has played and the average runs that he has scored in each test match. Create an array of s
+- Page 19: Ques : State true or false In an array of structures, not only are all structures stored in contiguous memory locations, but the elements of individual structures are also sto
+- Page 20: Features of structures Assigning the value of one structure variable to another of the same type
+- Page 21: Ques : Create a structure ‘date’ that contains three members namely date, month and year. Create 2 structure variables with different dates and now compare the two. If the dat
+- Page 22: Ques : Now create another structure variable by assigning the first date to it. Compare the first and third dates. followup
+- Page 23: Features of structures Nesting one structure within another structure
+- Page 24: Ques : maruti.engine.bolts = 25 ; Which of the following is True? 1. structure bolts is nested within structure engine 2. structure engine is nested within structure maruti 3.
+- Page 25: Features of structures A structure variable can be passed to a function #important: up attack speed ↑/ ,00 pikachu ⑭attach speedon # staves are passed by value:
+- Page 26: Ques : Create a structure to specify data on students with these attributes: Roll number, Name, Department, Course, Year of joining. Create 2 structure variables. Now, create 
+- Page 27: Features of structures Structure pointers #portant up attack speed tier name pokemon pikachu; pokemon*x =& pikachu; pikachu ⑮300x3044308x389x310 ↳ x300 2
+- Page 28: Ques : Create a structure ‘person’ having attributes as age and weight. Access its structure variables using pointers. typedof struct persons persona =2pC; 1 int age; I # way 
+- Page 29: Ques : Predict the output: # include <stdio.h> struct book { char name[ 25 ] ; char author[ 25 ] ; int callno ; } ; void display ( struct book * ) ; int main( ) { struct book 
+- Page 30: Ques : struct time { int hours ; int minutes ; int seconds ; } t ; struct time *pt ; pt = &t ; With reference to the above declarations which of the following refers to second
+- Page 31: Structures v/s Unions -> only one member struct pokemon union pokemonk can be used at int up; int up; a time. int speed; int speed; int attack; int attack; chartier; char tier
+- Page 32: up attack speed tier name #IIIII IIIIIIIIIII] pikachu +01/ (111) Is pikachu union Struct-28 bytes & struct pokemonk union - Is bytes intup;- ybytes int attack; -u bytes int sp
+
+## SortingC11(1).pdf — 50 pages
+
+- Page 1: Sorting Algorithms
+- Page 2: Today’s Checklist ●Time Complexity ●2 Pointer approach ●Bubble sort ●Selection sort ●Insertion sort
+- Page 3: Ques: Given an array of integers with 1 to n elements and the size of the array if n+1. One element is occurring more than once i.e duplicate number is present. Find the dupli
+- Page 4: w d ↑ 9 10 arr 6 2373; 910 ↓ 10 - - - 1 = 53 operations M - 2 d ↑ 23 756-8910 - boz 01 1 I 11 1 110 ↓ visited array Efficient -In terms of time. nficient. In terms of space-O(
+- Page 5: M- 3 = w 61 234 56 -8910 arr 6 /7325489 910 sum = 06 A IIA 19242/8 3/ US SM 64 sum of numbers from 1 to20 +1=55 Sn =n(n +1) 64 - 55 = - 2 Efficientin terms of time spaceboth
+- Page 6: 3rd gen is 3udgen is · #AN Time complexity space complexity TLE -time limitexceeded
+- Page 7: Ox for(ini =0;i <u;i ++1 Big 0 Notation' a I printf( "Hello"); 0(n +a) X O(n) 3 ↓ constant ↓ n operations -> 0(n) Ox for(ini =2; i<u;i ++1 I printf( "Hello"); 3 n +3 +0(n +3) 
+- Page 8: as forlint i =1; i< 3n;i ++ I printf( "Hello"); 0(u*n) =0(n) k -> constant 3 0(3*n) O(n) Ox for(in i =1; i< nn ;i ++ I printf( "Hello"); 3 O(n*n) =0(n))
+- Page 9: as forlint i =1 ;i<n ;i ++1 i = 1 +j =1 ton for (intj =10; j(n;j ++ 1 I printf( "Hello"); 3 3 ⑩(n2) O,forlint i =1;i<n ; i ++ 0(n(n1)) =0(n) 1 for (int i =1;j<i;j ++ =0(tn + n
+- Page 10: 0(3n3 +2n +8n) = 0(n3 +n +n) =0(n3) 0(X +8) = O(m) 0(n3k +n +1) = 0(nk) Ea space: in size away, size away, I size -> 5 size array - X ↓ 0(1)
+- Page 11: what is sorting: sort - putin ascending order 9 1 286 u C sort in I put in 12 4689 decreasing descending order order
+- Page 12: *2-pointers Ques : Given an array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. - "al
+- Page 13: int target = 8 0.23 y 56 7 int aur[] = I 2 3458910 -> max + 2 X X i i i i j comparisons inti =0; if(av(i] +avr[i] = =target) int j =n - 1; Ifound 3 if (awv (i) +avoli]> target
+- Page 14: inti =0; 0(n) int i =n - 1; while (i <j)k if (auv(i) +av(j) = =target) I printf / ( break; 3 1 else if (aur(i] +aur(5]> target) j - -; else i ++ ; 3
+- Page 15: Bubble Soto: 9/34105 original I 3 456 9 10 Souted 1) Technique 1) Complexities 2) explanation 3) Optimization
+- Page 16: arr 9 /3 41056 original 1934105 1394105 Epaereel, are+13 1349105 * 1349105 1399 5106 13 495610
+- Page 17: Pass-2 - - 13 495610 13495610 13495610 13495010 13459010 1345 6910 Sorted & I 3456 910. already
+- Page 18: 32db ass - 13456910 -
+- Page 19: 1st pass 2nd pass ⑭ - => - - v 5 u 3 21 u 3 2 I S N 4532 I 34n I S X 43521 324 I S ~ ⑤ 432 3 I 3 2 1 Y S v 43 2 I S
+- Page 20: 3pass yth pass - - - ~ ⑤ X -v 3 2 1 Y S 2 1 3 us -v / vvv 23 1 Y S I 2345 X -v 2 1 3 Y S S · n' elements in the away-in-1 passes · After every pass, we need to apply bubble so
+- Page 21: Coding implementation of bubble sort Nested Loops 6 Outer lookwill stand for no of passes ↳ Inner loop will do the swapping j + 0ton - 1 - i
+- Page 22: Time complexity Outer Loop-oxien - 2 n-1 bear chalega Inner Loop ↳ 1 =0 - n-1 bao i =1 ->h - 2 baar i =2 + n- 3 boar i =7 -n - ybaar no OPs = n - 1 +n - 2 +n - 3 +n - 4 +.....
+- Page 23: Maximum no of swaps in worst case in Bubble Sort ↓ descending If size of away is in -> n- 1 +x -... - 3 +2+1 =nt)
+- Page 24: How to optimize the bubble sort in the case of nearly sorted arrays? ↓ check if asway after every pass is already sorted of not. ↓ with the help of a checkmark. - >
+- Page 25: I complexityofBubt in best case: flag=true; n + n - 1 2 3uS ↓ O(n -1) = 0(n) 1 234 S 123uS 123uS 1 2 345 flag=true,
+- Page 26: Time complexityspcomplexity - Best Case o(n) 0(1) O(n2) 0(1) Arg. Case Worst case 0(n) 0(1)
+- Page 27: Is Bubble Sort Stable? Yes! 7 2 S 2 Y ↓stable sout al 6. 2 2 u Stable sort 2 / 2 Y S
+- Page 28: Is Bubble Sort Stable? 25 2 Y 25 2 Y 25 2 Y 2 21 S Y 22u 5
+- Page 29: Ques : What is the best case time and space complexity of bubble sort: a) O(1) & O(1) b) O(n) & O(1) c) O(n) & O(n) d) O(logn) & O(1) /
+- Page 30: Ques : Given an array of 6 elements, what is the max number of swaps we need to sort the array: a) 21 b) 15 c) 10 d) 28 ⑧ 6 S 432/ ↓ / n - 1 +n- 2 +n- 3 +..3 +z +1 5 +4 +3 +2 
+- Page 31: Bubble Sort - Unsorted array -> ascending order 325/4354321 1,Sort in descending order.
+- Page 32: Selection sort ②mink element red sorted part blue unsorted past
+- Page 33: Coding implementation of selection sort 0.2 3 Y ⑪servations: pass-1 5432 1 · For in dements we need in-1 passes. pass-2 1432 S · In each pass we find pass -3 1 23u S out the m
+- Page 34: ⑮ Run:i =0 to 3 0 I 2 3 Y 1 234 5 i =01 min =Max SMRDMax 2 minidx =10 & B M y13
+- Page 35: Time complexity Worst Case -> O(n) no of ops- n +n - 1 +n- 2 +...3 +2 =nn+1) - e 2 Avg. Case -> O(n) - n -n Best Case - 0 (n))
+- Page 36: Is selection sort stable ? No. / 6 2 3 4 3 O 01 2 3/ 34 instable & if (minav(5]) o 1 2 3 3/ 4 <min=arr(s) stable 3
+- Page 37: Ques : What will the array look like after the first iteration of selection sort [2,3,1,6,4] ? a) [1,2,3,6,4] b) [1,3,2,4,6] c) [1,3,2,6,4] d) [2,3,1,4,6] v
+- Page 38: Ques : Which of the following is an advantage of selection sort over bubble sort: a) It has a worst case complexity which is better than that of bubble sort. b) It takes O(N) 
+- Page 39: - section Sort: 0123 Y 1st 5 132 1 · Swapping from End nd tiel the elementfinds 2 4 5321 itsposition. rd · swap happens 3 3 4521 only when the th element issmaller u 2 3451 th
+- Page 40: Be for Insertion Sort: 0 12 3 Y 1 2 3 & S n -n- 1 operations - O(n)
+- Page 41: Coding implementation of insertion sort 01234 · No of passes-n-1 passes ⑭2 Is Is for (it i =1; i =n - 1;i ++( j-1j i int j =ij while (i>1&& arr(i] <av(i-1]) swap(aur (i],aur(i
+- Page 42: Time complexity Worst Case - O(n' Arg. Case - O(n2) Best case - O(n)
+- Page 43: Is Insertion Sort Stable? -> yes!! ⑭ 10(4/2
+- Page 44: Ques : Which of the following examples represent the worst case input for an insertion sort? a) array in sorted order b) large array c) normal unsorted array d) array sorted i
+- Page 45: Ques : How many passes would be required during insertion sort to sort an array of 5 elements? a) 1 b) Depends on order of elements c) 4 d) 5 v
+- Page 46: Ques : Given an integer array arr, move all 0's to the end of it while maintaining the relative order of the non-zero elements. A idx =0/R3M5 are 0 10(4)/1310 and(s), 1 s ↳Tc 
+- Page 47: Ques : Given an integer array arr, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without mak
+- Page 48: are (310101010 for(it i =0 ;ish- 1;i++ for(it j =0;j<n - 1 - i;i ++1 if (av (j) ==0) 1! 3 swap law (i), aur (i+1]); 3
+- Page 49: Ques : Given an integer array and an integer k where k <= size of array, We need to return the kth smallest element of the array. Homework - - a S 2 134 n =5 k =3 0(k)
+- Page 50: Ques : Given an array of digits (values are from 0 to 9), the task is to find the minimum possible sum of two numbers formed from digits of the array. Please note that all dig
+

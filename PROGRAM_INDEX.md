@@ -1,0 +1,44 @@
+# Refactored program index
+
+Each `.c` file is a standalone executable. These are **curated, verified reconstructions**, not a claim that every slide/exercise has been individually reimplemented. Exercises and diagrams without confidently readable source text remain indexed in `SOURCE_PAGE_INDEX.md`. Some common tutorial variations are instructional adaptations rather than line-for-line transcriptions.
+
+- `01_basics/01_hello_world.c` — Print a greeting using printf. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: 3.
+- `01_basics/02_newlines.c` — Use the newline escape sequence. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: 4-6.
+- `01_basics/03_variables.c` — Declare, print and update an integer variable. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: 8-9.
+- `01_basics/04_arithmetic.c` — Arithmetic and integer-division demonstration. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: 2, 7-12.
+- `01_basics/05_input.c` — Use scanf and verify its return value. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Chapter 1: Taking Input.
+- `01_basics/06_type_casting.c` — Compare integer and floating division. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Chapter 1: float to int.
+- `01_basics/07_ascii.c` — Show character and ASCII numeric code. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Chapter 1: Char and ASCII.
+- `02_control_flow/01_even_odd.c` — Decide whether an integer is even or odd. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Control-flow chapter.
+- `02_control_flow/02_largest_three.c` — Select the largest of three integers. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Control-flow chapter.
+- `02_control_flow/03_switch_calculator.c` — Use a switch statement for four arithmetic operations. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Control-flow chapter.
+- `03_loops/01_counting.c` — Print integers using a for loop. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Loops chapter.
+- `03_loops/02_multiplication_table.c` — Generate the multiplication table of a number. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Loops chapter.
+- `03_loops/03_factorial_iterative.c` — Compute factorial iteratively (0 through 20). Source: Recursion(1).pdf, page/reference: 2.
+- `04_functions/01_greet.c` — Define and call a void function repeatedly. Source: COneShotPart5(1).pdf, page/reference: 4.
+- `04_functions/02_add.c` — Use return values and function parameters. Source: COneShotPart5(1).pdf, page/reference: 9-10.
+- `04_functions/03_square.c` — Implement a simple mathematical function. Source: COneShotPart5(1).pdf, page/reference: 3.
+- `05_arrays/01_traverse.c` — Initialize and traverse a one-dimensional array. Source: StringsNotes(1).pdf, page/reference: 2.
+- `05_arrays/02_reverse.c` — Reverse an array in place using two pointers. Source: SortingC11(1).pdf, page/reference: 2-pointer section.
+- `05_arrays/03_duplicate_nested.c` — Find a duplicate with nested loops: O(n^2) time, O(1) space. Source: SortingC11(1).pdf, page/reference: 3.
+- `05_arrays/04_duplicate_sum.c` — Find one repeated integer from 1..n using arithmetic sum; requires exactly one extra occurrence. Source: SortingC11(1).pdf, page/reference: 5.
+- `06_2d_arrays/01_print_matrix.c` — Print an initialized matrix with nested loops. Source: 2Darrays(1).pdf, page/reference: 6-7.
+- `06_2d_arrays/02_transpose.c` — Print the transpose of a rectangular matrix. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: 2D arrays: transpose exercise.
+- `06_2d_arrays/03_matrix_sum.c` — Add two matrices elementwise. Source: 2Darrays(1).pdf, page/reference: matrix exercises.
+- `07_strings/01_character_array.c` — Print a character array one character at a time. Source: StringsNotes(1).pdf, page/reference: 6.
+- `07_strings/02_null_terminator.c` — Demonstrate null-terminated C strings. Source: StringsNotes(1).pdf, page/reference: 8-9.
+- `07_strings/03_string_library.c` — Demonstrate strlen, strcpy, strcat and strcmp. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: string library section.
+- `07_strings/04_reverse_string.c` — Reverse a writable string with index swapping. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: string reverse exercise.
+- `07_strings/05_read_line.c` — Read a line safely with fgets instead of deprecated gets. Source: StringsNotes(1).pdf, page/reference: string input/output.
+- `08_pointers/01_address_dereference.c` — Demonstrate address-of and dereference operators. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Pointers section.
+- `08_pointers/02_pointer_string.c` — Distinguish mutable arrays and pointers to read-only string literals. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: strings as pointers.
+- `08_pointers/03_swap.c` — Swap two integers using pointer parameters. Source: C in 10 Hours (1) 2.pdf(1).pdf, page/reference: Pointers/functions section.
+- `09_recursion/01_factorial.c` — Compute factorial using a recursive base case. Source: Recursion(1).pdf, page/reference: 3-6.
+- `09_recursion/02_descending.c` — Print n down to 1 with recursion. Source: Recursion(1).pdf, page/reference: 7.
+- `09_recursion/03_fibonacci.c` — Calculate a small Fibonacci term recursively. Source: Recursion(1).pdf, page/reference: recursion exercises.
+- `10_structures/01_employee.c` — Group employee attributes into a structure. Source: Structures(1).pdf, page/reference: 2.
+- `10_structures/02_pokemon.c` — Create two struct values and access their members. Source: Structures(1).pdf, page/reference: 4-5.
+- `10_structures/03_students.c` — Use an array of structures for student records. Source: Structures(1).pdf, page/reference: 3, 6-8.
+- `11_sorting/01_bubble_sort.c` — Sort values with adjacent comparisons and swaps. Source: SortingC11(1).pdf, page/reference: bubble sort section.
+- `11_sorting/02_selection_sort.c` — Sort by selecting the smallest item in the unsorted suffix. Source: SortingC11(1).pdf, page/reference: selection sort section.
+- `11_sorting/03_insertion_sort.c` — Build a sorted prefix by inserting elements into position. Source: SortingC11(1).pdf, page/reference: insertion sort section.

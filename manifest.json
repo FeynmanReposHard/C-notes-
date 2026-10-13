@@ -1,0 +1,242 @@
+[
+  {
+    "path": "01_basics/01_hello_world.c",
+    "description": "Print a greeting using printf.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "3"
+  },
+  {
+    "path": "01_basics/02_newlines.c",
+    "description": "Use the newline escape sequence.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "4-6"
+  },
+  {
+    "path": "01_basics/03_variables.c",
+    "description": "Declare, print and update an integer variable.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "8-9"
+  },
+  {
+    "path": "01_basics/04_arithmetic.c",
+    "description": "Arithmetic and integer-division demonstration.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "2, 7-12"
+  },
+  {
+    "path": "01_basics/05_input.c",
+    "description": "Use scanf and verify its return value.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Chapter 1: Taking Input"
+  },
+  {
+    "path": "01_basics/06_type_casting.c",
+    "description": "Compare integer and floating division.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Chapter 1: float to int"
+  },
+  {
+    "path": "01_basics/07_ascii.c",
+    "description": "Show character and ASCII numeric code.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Chapter 1: Char and ASCII"
+  },
+  {
+    "path": "02_control_flow/01_even_odd.c",
+    "description": "Decide whether an integer is even or odd.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Control-flow chapter"
+  },
+  {
+    "path": "02_control_flow/02_largest_three.c",
+    "description": "Select the largest of three integers.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Control-flow chapter"
+  },
+  {
+    "path": "02_control_flow/03_switch_calculator.c",
+    "description": "Use a switch statement for four arithmetic operations.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Control-flow chapter"
+  },
+  {
+    "path": "03_loops/01_counting.c",
+    "description": "Print integers using a for loop.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Loops chapter"
+  },
+  {
+    "path": "03_loops/02_multiplication_table.c",
+    "description": "Generate the multiplication table of a number.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Loops chapter"
+  },
+  {
+    "path": "03_loops/03_factorial_iterative.c",
+    "description": "Compute factorial iteratively (0 through 20).",
+    "source": "Recursion(1).pdf",
+    "pages": "2"
+  },
+  {
+    "path": "04_functions/01_greet.c",
+    "description": "Define and call a void function repeatedly.",
+    "source": "COneShotPart5(1).pdf",
+    "pages": "4"
+  },
+  {
+    "path": "04_functions/02_add.c",
+    "description": "Use return values and function parameters.",
+    "source": "COneShotPart5(1).pdf",
+    "pages": "9-10"
+  },
+  {
+    "path": "04_functions/03_square.c",
+    "description": "Implement a simple mathematical function.",
+    "source": "COneShotPart5(1).pdf",
+    "pages": "3"
+  },
+  {
+    "path": "05_arrays/01_traverse.c",
+    "description": "Initialize and traverse a one-dimensional array.",
+    "source": "StringsNotes(1).pdf",
+    "pages": "2"
+  },
+  {
+    "path": "05_arrays/02_reverse.c",
+    "description": "Reverse an array in place using two pointers.",
+    "source": "SortingC11(1).pdf",
+    "pages": "2-pointer section"
+  },
+  {
+    "path": "05_arrays/03_duplicate_nested.c",
+    "description": "Find a duplicate with nested loops: O(n^2) time, O(1) space.",
+    "source": "SortingC11(1).pdf",
+    "pages": "3"
+  },
+  {
+    "path": "05_arrays/04_duplicate_sum.c",
+    "description": "Find one repeated integer from 1..n using arithmetic sum; requires exactly one extra occurrence.",
+    "source": "SortingC11(1).pdf",
+    "pages": "5"
+  },
+  {
+    "path": "06_2d_arrays/01_print_matrix.c",
+    "description": "Print an initialized matrix with nested loops.",
+    "source": "2Darrays(1).pdf",
+    "pages": "6-7"
+  },
+  {
+    "path": "06_2d_arrays/02_transpose.c",
+    "description": "Print the transpose of a rectangular matrix.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "2D arrays: transpose exercise"
+  },
+  {
+    "path": "06_2d_arrays/03_matrix_sum.c",
+    "description": "Add two matrices elementwise.",
+    "source": "2Darrays(1).pdf",
+    "pages": "matrix exercises"
+  },
+  {
+    "path": "07_strings/01_character_array.c",
+    "description": "Print a character array one character at a time.",
+    "source": "StringsNotes(1).pdf",
+    "pages": "6"
+  },
+  {
+    "path": "07_strings/02_null_terminator.c",
+    "description": "Demonstrate null-terminated C strings.",
+    "source": "StringsNotes(1).pdf",
+    "pages": "8-9"
+  },
+  {
+    "path": "07_strings/03_string_library.c",
+    "description": "Demonstrate strlen, strcpy, strcat and strcmp.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "string library section"
+  },
+  {
+    "path": "07_strings/04_reverse_string.c",
+    "description": "Reverse a writable string with index swapping.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "string reverse exercise"
+  },
+  {
+    "path": "07_strings/05_read_line.c",
+    "description": "Read a line safely with fgets instead of deprecated gets.",
+    "source": "StringsNotes(1).pdf",
+    "pages": "string input/output"
+  },
+  {
+    "path": "08_pointers/01_address_dereference.c",
+    "description": "Demonstrate address-of and dereference operators.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Pointers section"
+  },
+  {
+    "path": "08_pointers/02_pointer_string.c",
+    "description": "Distinguish mutable arrays and pointers to read-only string literals.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "strings as pointers"
+  },
+  {
+    "path": "08_pointers/03_swap.c",
+    "description": "Swap two integers using pointer parameters.",
+    "source": "C in 10 Hours (1) 2.pdf(1).pdf",
+    "pages": "Pointers/functions section"
+  },
+  {
+    "path": "09_recursion/01_factorial.c",
+    "description": "Compute factorial using a recursive base case.",
+    "source": "Recursion(1).pdf",
+    "pages": "3-6"
+  },
+  {
+    "path": "09_recursion/02_descending.c",
+    "description": "Print n down to 1 with recursion.",
+    "source": "Recursion(1).pdf",
+    "pages": "7"
+  },
+  {
+    "path": "09_recursion/03_fibonacci.c",
+    "description": "Calculate a small Fibonacci term recursively.",
+    "source": "Recursion(1).pdf",
+    "pages": "recursion exercises"
+  },
+  {
+    "path": "10_structures/01_employee.c",
+    "description": "Group employee attributes into a structure.",
+    "source": "Structures(1).pdf",
+    "pages": "2"
+  },
+  {
+    "path": "10_structures/02_pokemon.c",
+    "description": "Create two struct values and access their members.",
+    "source": "Structures(1).pdf",
+    "pages": "4-5"
+  },
+  {
+    "path": "10_structures/03_students.c",
+    "description": "Use an array of structures for student records.",
+    "source": "Structures(1).pdf",
+    "pages": "3, 6-8"
+  },
+  {
+    "path": "11_sorting/01_bubble_sort.c",
+    "description": "Sort values with adjacent comparisons and swaps.",
+    "source": "SortingC11(1).pdf",
+    "pages": "bubble sort section"
+  },
+  {
+    "path": "11_sorting/02_selection_sort.c",
+    "description": "Sort by selecting the smallest item in the unsorted suffix.",
+    "source": "SortingC11(1).pdf",
+    "pages": "selection sort section"
+  },
+  {
+    "path": "11_sorting/03_insertion_sort.c",
+    "description": "Build a sorted prefix by inserting elements into position.",
+    "source": "SortingC11(1).pdf",
+    "pages": "insertion sort section"
+  }
+]

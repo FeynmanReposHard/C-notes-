@@ -1,0 +1,44 @@
+# C11 compilation check
+
+- PASS: `01_basics/01_hello_world.c`
+- PASS: `01_basics/02_newlines.c`
+- PASS: `01_basics/03_variables.c`
+- PASS: `01_basics/04_arithmetic.c`
+- PASS: `01_basics/05_input.c`
+- PASS: `01_basics/06_type_casting.c`
+- PASS: `01_basics/07_ascii.c`
+- PASS: `02_control_flow/01_even_odd.c`
+- PASS: `02_control_flow/02_largest_three.c`
+- PASS: `02_control_flow/03_switch_calculator.c`
+- PASS: `03_loops/01_counting.c`
+- PASS: `03_loops/02_multiplication_table.c`
+- PASS: `03_loops/03_factorial_iterative.c`
+- PASS: `04_functions/01_greet.c`
+- PASS: `04_functions/02_add.c`
+- PASS: `04_functions/03_square.c`
+- PASS: `05_arrays/01_traverse.c`
+- PASS: `05_arrays/02_reverse.c`
+- PASS: `05_arrays/03_duplicate_nested.c`
+- PASS: `05_arrays/04_duplicate_sum.c`
+- PASS: `06_2d_arrays/01_print_matrix.c`
+- PASS: `06_2d_arrays/02_transpose.c`
+- PASS: `06_2d_arrays/03_matrix_sum.c`
+- PASS: `07_strings/01_character_array.c`
+- PASS: `07_strings/02_null_terminator.c`
+- PASS: `07_strings/03_string_library.c`
+- PASS: `07_strings/04_reverse_string.c`
+- PASS: `07_strings/05_read_line.c`
+- PASS: `08_pointers/01_address_dereference.c`
+- PASS: `08_pointers/02_pointer_string.c`
+- PASS: `08_pointers/03_swap.c`
+- PASS: `09_recursion/01_factorial.c`
+- PASS: `09_recursion/02_descending.c`
+- PASS: `09_recursion/03_fibonacci.c`
+- PASS: `10_structures/01_employee.c`
+- PASS: `10_structures/02_pokemon.c`
+- PASS: `10_structures/03_students.c`
+- PASS: `11_sorting/01_bubble_sort.c`
+- PASS: `11_sorting/02_selection_sort.c`
+- PASS: `11_sorting/03_insertion_sort.c`
+
+**40/40 passed** using `/usr/bin/gcc`.
